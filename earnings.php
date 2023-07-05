@@ -113,8 +113,8 @@
               </td>
               <td>
                   <div class="text-center">
-                      <a class="bg-navy p-1" href="EditEarning.php?id=<?php echo $row['id'];?>"><i class="fa fa-pen "></i></a>
-                      <a class="bg-danger p-1" href="config/DeleteEarning.php?id=<?php echo $row['id'];?>"><i class="fa fa-trash "></i></a>
+                      <a class="btn btn-sm bg-navy p-1" href="EditEarning.php?id=<?php echo $row['id'];?>"><i class="fa fa-pen "></i></a>
+                      <a class="btn btn-sm bg-danger p-1" href="config/DeleteEarning.php?id=<?php echo $row['id'];?>"><i class="fa fa-trash "></i></a>
                   </div>
               </td>
             </tr>
